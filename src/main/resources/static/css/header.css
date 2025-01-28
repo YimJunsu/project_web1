@@ -5,43 +5,10 @@
     font-style: normal;
 }
 
-.head {
+.head{
     display: flex;
-    justify-content: center; /* 가로 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center;
     font-family: SBAggroB;
-    font-size: 8vw; /* 화면 너비에 비례하여 폰트 크기 설정 */
-    color: azure;
-    width: 100%;
-    height: 14vh; /* 화면 높이에 비례하여 배경 높이 설정 (13% 화면 높이) */
-    background-color: orange;
-    margin: 0 auto;
-}
-
-.head img {
-    max-width: 15vw; /* 화면 너비의 10%로 이미지 크기 설정 */
-    height: auto; /* 비율에 맞춰 높이 자동 설정 */
-    margin-right: 10px; /* 이미지와 텍스트 간 간격 추가 */
-}
-
-/* 작은 화면에서 폰트 크기 추가 조정 */
-@media (max-width: 768px) {
-    .head {
-        font-size: 8vw; /* 화면이 작아지면 폰트 크기를 더 키움 */
-    }
-    
-    .head img {
-        max-width: 15vw; /* 작은 화면에서는 이미지 크기 증가 */
-    }
-}
-
-/* 매우 작은 화면에서 폰트 크기 조정 */
-@media (max-width: 370px) {
-    .head {
-        font-size: 13vw; /* 더 작은 화면에서 폰트 크기 더 키움 */
-    }
-    
-    .head img {
-        max-width: 30vw; /* 매우 작은 화면에서 이미지 크기 증가 */
-    }
+    font-size: 27px;
+    color: black;
 }
