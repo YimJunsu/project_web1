@@ -14,4 +14,5 @@ public class ViewController {
 
     @GetMapping("/member/signup.html")
     public String signup(){return  "/member/signup.html";}
+    
 }
